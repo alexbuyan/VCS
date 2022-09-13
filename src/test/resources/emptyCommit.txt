@@ -1,0 +1,8 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Create file 'file.txt' with content 'aaa'
+----------------------------
+Command: commit empty commit
+No changes added to commit

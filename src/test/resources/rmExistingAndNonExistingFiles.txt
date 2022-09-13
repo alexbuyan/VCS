@@ -1,0 +1,15 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Create file 'file.txt' with content 'aaa'
+----------------------------
+Command: add file.txt
+----------------------------
+Command: rm file.txt noFile.txt
+error: 'noFile.txt' did not match any file(s) known to git
+----------------------------
+Command: status
+Current branch is 'master'
+Changes to be committed:
+	new file:	file.txt

@@ -1,0 +1,9 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Create file 'file.txt' with content 'aaa'
+----------------------------
+Command: add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?

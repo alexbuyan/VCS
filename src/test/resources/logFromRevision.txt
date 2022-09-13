@@ -1,0 +1,31 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Create file 'file1.txt' with content 'aaa'
+----------------------------
+Command: add file1.txt
+----------------------------
+Command: commit First commit
+Files committed successfully
+----------------------------
+Create file 'file2.txt' with content 'bbb'
+----------------------------
+Command: add file2.txt
+----------------------------
+Command: commit Second commit
+Files committed successfully
+----------------------------
+Command: log HEAD~1
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	First commit
+
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	Initial commit
+

@@ -1,0 +1,6 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Command: init
+Git repository already initialized in C:\Users\sasha\Desktop\java2-hse\.\playground

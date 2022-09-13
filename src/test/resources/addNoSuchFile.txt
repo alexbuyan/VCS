@@ -1,0 +1,6 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Command: add NoSuchFile.txt
+fatal: 'NoSuchFile.txt' did not match any files

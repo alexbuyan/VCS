@@ -1,0 +1,38 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Create file 'file.txt' with content 'aaa'
+----------------------------
+Command: status
+Current branch is 'master'
+Untracked files:
+	file.txt
+----------------------------
+Command: add file.txt
+----------------------------
+Command: status
+Current branch is 'master'
+Changes to be committed:
+	new file:	file.txt
+----------------------------
+Command: commit First commit
+Files committed successfully
+----------------------------
+Command: status
+Current branch is 'master'
+Everything is up to date
+----------------------------
+Command: log
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	First commit
+
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	Initial commit
+

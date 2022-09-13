@@ -1,0 +1,10 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Command: rm NoSuchFile.txt
+error: 'NoSuchFile.txt' did not match any file(s) known to git
+----------------------------
+Command: status
+Current branch is 'master'
+Everything is up to date

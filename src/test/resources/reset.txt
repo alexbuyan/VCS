@@ -1,0 +1,84 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Create file 'file.txt' with content 'aaa'
+----------------------------
+Command: add file.txt
+----------------------------
+Command: commit First commit
+Files committed successfully
+----------------------------
+Create file 'file.txt' with content 'bbb'
+----------------------------
+Command: add file.txt
+----------------------------
+Command: commit Second commit
+Files committed successfully
+----------------------------
+Command: log
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	Second commit
+
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	First commit
+
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	Initial commit
+
+----------------------------
+Command: reset HEAD~1
+Successful reset to commit COMMIT_HASH
+----------------------------
+Command: content of file file.txt
+aaa
+----------------------------
+Command: log
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	First commit
+
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	Initial commit
+
+----------------------------
+Create file 'file.txt' with content 'ccc'
+----------------------------
+Command: add file.txt
+----------------------------
+Command: commit Third commit
+Files committed successfully
+----------------------------
+Command: log
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	Third commit
+
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	First commit
+
+commit COMMIT_HASH
+Date:	COMMIT_DATE
+Author:	COMMIT_AUTHOR
+
+	Initial commit
+

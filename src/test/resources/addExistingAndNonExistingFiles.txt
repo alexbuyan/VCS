@@ -1,0 +1,13 @@
+----------------------------
+Command: init
+Git repository initialized
+----------------------------
+Create file 'file.txt' with content 'aaa'
+----------------------------
+Command: add file.txt noFile.txt
+fatal: 'noFile.txt' did not match any files
+----------------------------
+Command: status
+Current branch is 'master'
+Untracked files:
+	file.txt
